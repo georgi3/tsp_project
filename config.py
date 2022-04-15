@@ -1,0 +1,26 @@
+import os
+
+# FSQ INFO
+FSQ_API_KEY = os.environ['FOURSQUARE_API_KEY']
+NE_FSQ = '45.693164,-73.489801'
+SW_FSQ = '45.433221,-73.898889'
+CATEGORY_FSQ = '13387'
+LIMIT_FSQ = '50'
+SORT_FSQ = 'RATING'
+
+POI_RICH_DATA_FSQ = 'fsq_id,name,location,website,rating,stats,popularity'
+
+
+# YELP INFO
+YELP_API_KEY = os.environ['YELP_API_KEY']
+LATITUDE_YELP = '45.502772'
+LONGITUDE_YELP = '-73.552406'
+LIMIT_YELP = '50'
+CATEGORIES_YELP = 'cocktailbars'
+RADIUS_YELP = '1000'
+SORT_BY_YELP = 'rating'
+GOOGLE_API_KEY = os.environ['GOOGLE_DIR_API_KEY']
+
+#%%
+
+#%%
